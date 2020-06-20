@@ -12,3 +12,4 @@ public class CriptografiaCesariana implements Criptografia {
         throw new UnsupportedOperationException("esse method nao esta implementado aainda");
     }
 }
+

@@ -23,3 +23,10 @@
 hs_err_pid*
 
 .idea/
+.gradle/
+.settings/
+.project/
+gradle/
+gradlew
+gradlew.bat
+build.gradle
