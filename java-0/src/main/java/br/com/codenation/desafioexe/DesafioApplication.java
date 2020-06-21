@@ -21,6 +21,12 @@ public class DesafioApplication {
 	}
 
 	public static Boolean isFibonacci(Integer num) {
+
 		return fibonacci().contains(num);
+	}
+
+	public static void main(String[] args) {
+		System.out.println(fibonacci());
+		System.out.println(isFibonacci(89));
 	}
 }
