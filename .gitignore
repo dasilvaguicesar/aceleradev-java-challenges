@@ -26,6 +26,7 @@ hs_err_pid*
 .gradle/
 .settings/
 .project/
+.project
 .DS_Store
 gradle/
 gradlew
