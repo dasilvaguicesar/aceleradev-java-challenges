@@ -1,5 +1,7 @@
 package challenge;
 
+import java.util.Objects;
+
 public class Carro {
 
     private final Motorista motorista;
@@ -85,7 +87,9 @@ public class Carro {
             return this;
         }
 
-        public Carro build() {
+        public Carro build() throws EstacionamentoException {
+            if(Objects.isNull(placa) | Objects.isNull(cor))
+               throw new NullPointerException();
             return new Carro(motorista, placa, cor);
         }
     }
