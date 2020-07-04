@@ -3,7 +3,7 @@ package com.challenge.interfaces;
 import java.math.BigDecimal;
 
 public interface Calculavel {
-  BigDecimal Somar ();
-  BigDecimal Subtrair();
-  BigDecimal Totalizar();
+  BigDecimal somar (Object obj);
+  BigDecimal subtrair(Object obj);
+  BigDecimal totalizar(Object obj);
 }
