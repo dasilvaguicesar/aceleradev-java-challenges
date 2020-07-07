@@ -28,6 +28,12 @@ hs_err_pid*
 .project/
 .project
 .DS_Store
+.mvn/wrapper
+mvnw
+mvnw.cmd
+pom.xml
+resources
+entity
 settings.gradle
 gradle/
 gradlew
@@ -36,3 +42,4 @@ build.gradle
 build
 bin
 libs
+
