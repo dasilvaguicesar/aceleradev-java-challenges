@@ -29,6 +29,7 @@ hs_err_pid*
 .project
 .DS_Store
 .mvn/wrapper
+.mvn/wrapper/
 mvnw
 mvnw.cmd
 pom.xml
